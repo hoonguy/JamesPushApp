@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "736436593160",
+    "firebase_url": "https://jamespushapp.firebaseio.com",
+    "project_id": "jamespushapp",
+    "storage_bucket": "jamespushapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736436593160:android:e0aebda1f8b333f7",
+        "android_client_info": {
+          "package_name": "com.jh.jamespushapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736436593160-ubg4okhonl5olkel7usc02dvaiq4ermd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi8ngMsWPXxVGmfEKz-UyN8jTAWOk9YpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
