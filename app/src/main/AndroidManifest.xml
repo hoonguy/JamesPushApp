@@ -12,27 +12,14 @@
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="@string/default_notification_channel_id" />
-        <activity android:name=".SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-<!-- AWS Mobile Hub : Replace the MainActivity to SplashActivity
                 <activity android:name=".MainActivity">
                                 <intent-filter>
                                     <action android:name="android.intent.action.MAIN" />
                                     <category android:name="android.intent.category.LAUNCHER" />
                                 </intent-filter>
         </activity>
--->
         <activity android:name=".DisplayMessage" />
-<!--
-        <activity
-            android:name=".SplashActivity"
-            android:label="@string/title_activity_splash"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
--->
+
         <service android:name=".MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
